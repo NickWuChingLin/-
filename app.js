@@ -188,3 +188,12 @@ function setHighestScore(score) {
     highestScore = score;
   }
 }
+
+
+// 按鈕重新整理
+const btn = document.querySelector(".btn")
+btn.addEventListener("click", () => {
+  alert('遊戲開始');
+  window.location.reload()
+})
+

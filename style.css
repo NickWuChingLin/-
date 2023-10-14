@@ -14,7 +14,7 @@ body {
 #myCanvas {
   border: 5px solid lightgreen;
   position: absolute;
-  top: 60%;
+  top: 70%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -30,7 +30,7 @@ body {
   padding: 10px;
 }
 
-#Start {
+.btn {
   padding: 0.25rem 0.5rem;
   background-color: yellow;
   font-size: 1.15rem;
